@@ -1,11 +1,12 @@
-<script setup>
-
-</script>
-
 <template>
-	
+	<router-view />	
 </template>
 
-<style scoped>
+<script setup>
+import { ref } from 'vue'
+</script>
 
+<style lang="scss">
+@import 'reset-css/reset.css';
+@import "@/styles/main.scss";
 </style>

@@ -1,0 +1,57 @@
+[class*="__container"] {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+#app {
+	font-family: Cabin-Medium;
+	font-size: 20px;
+	color: #fff;
+}
+.title {
+	font-family: Alegreya-Bold;
+	color: #fff;
+}
+.subtitle {
+	font-family: Cabin-Medium;
+	color: #fff;
+}
+img {
+	max-width: 100%;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	background: #000000;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	overflow: hidden;
+	min-height: 100vh;
+}
+.main {
+}
+.logo {
+	color: #fff;
+}
